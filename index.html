@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarium</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-nav-container">
+            <img src="Pizzarium.jpeg" alt="Logo de Pizzarium" class="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Pizzarium</h2>
+        <p>Pizzarium es tu destino para pizzas artesanales, donde cada masa se elabora a mano con ingredientes frescos y de alta calidad. Ofrecemos desde clásicas hasta creaciones innovadoras, con opciones vegetarianas y sin gluten. Nuestro ambiente acogedor es perfecto para compartir momentos especiales, y también contamos con servicio de entrega. ¡Descubre el auténtico sabor de la pizza en Pizzarium! .</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="galeria">
+            <div class="producto">
+                <img src="Pizza en forma de corazon.jpeg" alt="Pastel de chocolate">
+                <p>Precio: S/20</p>
+            </div>
+            <div class="producto">
+                <img src="Pizza en forma de gato.jpeg" alt="Pastel de fresa">
+                <p>Precio: S/22</p>
+            </div>
+            <div class="producto">
+                <img src="Pizza.jpeg" alt="Pastel de vainilla">
+                <p>Precio: S/18</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <div class="producto" style="width: 500px;">
+                <img src="Trajeta de presentacion 1.jpeg" alt="">                <img src="Tarjeta de presentacion 2.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formularioContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pizzarium - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
